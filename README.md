@@ -1,16 +1,72 @@
-# React + Vite
+# 🛡️ TrustHire AI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**TrustHire AI** is a web-based project designed to help students and job seekers identify potentially suspicious or scam job postings.
 
-Currently, two official plugins are available:
+> **Current Status:** 🚧 UI/Frontend Prototype
+> The current version mainly focuses on the **user interface and frontend experience**. The backend, AI-based analysis, and other functionalities will be developed and integrated in future updates.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🎯 Project Idea
 
-## React Compiler
+Online job scams can target students and freshers who are actively looking for internships and jobs.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+TrustHire AI aims to provide a platform where users can submit a job posting and get an analysis of whether it may contain suspicious or risky information.
 
-## Expanding the ESLint configuration
+## ✨ Current Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* 🎨 Clean and responsive UI
+* 🏠 User-friendly landing page
+* 🔍 Job posting analysis interface
+* 📊 Result/analysis interface
+* ⚠️ Scam warning and risk indicators UI
+* 📱 Responsive design for different screen sizes
+
+## 🛠️ Tech Stack
+
+* React.js
+* Vite
+* JavaScript
+* Tailwind CSS
+
+## 📂 Project Structure
+
+```text
+trusthire-ai/
+├── public/
+├── src/
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+## ⚙️ Run Locally
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/chirag18-n/trusthire-ai.git
+```
+
+### 2. Open the project
+
+```bash
+cd trusthire-ai
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+Open the local URL shown in the terminal to view the project.
+
+## 🚧 Future Development
+
+The current version is only the **fronten**
